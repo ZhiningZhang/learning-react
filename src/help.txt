@@ -1,4 +1,4 @@
-
+github code
 https://github.com/QuentinWatt/React-for-beginners-tutorial-series
 
 
@@ -16,6 +16,21 @@ https://getuikit.com/v2/index.html
 
 
 yarn add postcss-cli
+
+---
+
+https://fontawesome.com/how-to-use/on-the-web/using-with/react
+
+React Font Awesome
+
+https://github.com/FortAwesome/react-native-fontawesome
+
+
+----
+
+React fontawesome
+https://fontawesome.com/how-to-use/on-the-web/using-with/react
+
 
 
 
