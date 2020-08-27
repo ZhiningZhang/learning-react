@@ -1,0 +1,21 @@
+
+https://github.com/QuentinWatt/React-for-beginners-tutorial-series
+
+
+
+----
+https://www.youtube.com/watch?v=hLqTnjoax80&list=PL41lfR-6DnOoTiHU4Ub6efP-p3xAq3eiV&index=5
+
+tailwind css
+https://tailwindcss.com/docs/installation
+
+uikit
+https://getuikit.com/v2/index.html
+
+----
+
+
+yarn add postcss-cli
+
+
+

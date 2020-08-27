@@ -1,16 +1,20 @@
-import React from 'react';
+import React, {useState} from 'react';
 import logo from './logo.svg';
-import './App.css';
 import HelloWorld from './Components/HelloWorld'
 import HelloClassCom from './Components/HelloClassCom'
+import CounterExample from './FuncComponents/CounterExample'
+import Header from './Components/Header'
+import Footer from './Components/Footer'
 
 function App() {
+
+
   return (
 <div>
-  <HelloWorld name="Cindy" age="10"/>
-  <p>
-  <HelloClassCom name="Andy"/>
-  </p>
+
+  <Header/>
+  <HelloWorld name="Andy"/>
+  <Footer/>
 </div>
   );
 }
