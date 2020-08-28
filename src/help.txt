@@ -32,5 +32,17 @@ React fontawesome
 https://fontawesome.com/how-to-use/on-the-web/using-with/react
 
 
+----
 
+Why is my function being called twice in React?
+https://stackoverflow.com/questions/50819162/why-is-my-function-being-called-twice-in-react
 
+It is expected that setState updaters will run twice in strict mode in development. This helps ensure the code doesn't rely on them running a single time (which wouldn't be the case if an async render was aborted and later restarted). If your setState updaters are pure functions (as they should be) then this shouldn't affect the logic of your application.
+
+https://github.com/facebook/react/issues/12856#issuecomment-390206425
+
+----
+react-spring
+https://www.react-spring.io/docs/hooks/use-transition
+
+yarn add react-spring
