@@ -31,7 +31,7 @@ function App() {
         <Footer />
       </Router>
 
-<HelloWorld name="Andy" />
+      <HelloWorld name="Andy" />
       <h2>aaaa {Math.random()}</h2>
     </div>
   );
