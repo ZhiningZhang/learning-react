@@ -10,32 +10,22 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 function App() {
   return (
     <div>
-      <Header />
-      <HelloWorld name="Andy" />
       <Router>
-        <ul>
-          <li>
-            <Link to="/" className="text-blue-500">
-              Home
-            </Link>
-          </li>
-          <li>
-            <Link to="/about" className="text-blue-500">
-              About
-            </Link>
-          </li>
-        </ul>
+        <Header />
+        <HelloWorld name="Andy" />
+
         <Switch>
           <Route exact path="/">
             <h2>This is home page</h2>
           </Route>
           <Route path="/about">
-            <h1 className="text-gray-300">This is About page</h1>
+            <h1 className="text-gray-900">This is About page</h1>
           </Route>
         </Switch>
+        <Footer />
       </Router>
-      <Footer />
-  <h2>aaaa {Math.random()}</h2>
+      
+      <h2>aaaa {Math.random()}</h2>
     </div>
   );
 }
