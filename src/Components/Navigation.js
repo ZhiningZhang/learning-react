@@ -7,7 +7,7 @@ function Navigation() {
     const [showMenu, setShowMenu] = useState(false);
 
 
-    console.log(" --- Navigation ", showMenu)
+    //console.log(" --- Navigation ", showMenu)
 
     const maskTransitions = useTransition(showMenu, null, {
         from: { position: 'absolute', opacity: 0 },
