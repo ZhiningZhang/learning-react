@@ -7,10 +7,11 @@ import Header from "./Components/Header";
 import Footer from "./Components/Footer";
 import Home from "./Views/Home";
 import About from "./Views/About";
+import Product from "./Views/Product";
 
 function App() {
   return (
-    <div>
+    <div className="relative pb-10 min-h-screen">
       <Router>
         <Header />
 
@@ -22,11 +23,15 @@ function App() {
             <Route path="/about">
               <About />
             </Route>
+            <Route path="/product/:id">
+              <Product />
+            </Route>
           </Switch>
         </div>
         <Footer />
       </Router>
 
+<HelloWorld name="Andy" />
       <h2>aaaa {Math.random()}</h2>
     </div>
   );
