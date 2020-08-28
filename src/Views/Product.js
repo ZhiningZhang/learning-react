@@ -58,7 +58,7 @@ function Product() {
     );
   }
 
-  return <div>{content}</div>;
+  return <div> product page {content}</div>;
 }
 
 export default Product;

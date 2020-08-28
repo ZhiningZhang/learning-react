@@ -65,3 +65,6 @@ axios
 
 https://youtu.be/o7c_RRUTQHo?t=295
 
+
+https://5e9623dc5b19f10016b5e31f.mockapi.io/api/v1/products?page=2&limit=10
+
